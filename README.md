@@ -9,7 +9,7 @@ Follow the instructions provided for Activity 9 in the student lab guide. Comple
 
 2. Why are there no abstract methods dealing with the selection of the cards to be removed or replaced in the array `cards`?
 
-    * the selection and removal methods do not have to be abstract since those methods are common for each game.
+    * The selection and removal methods do not have to be abstract since those methods are common for each game.
 
 3. Another way to create “IS-A” relationships is by implementing interfaces. Suppose that instead of creating an `abstract Board` class, we created the following `Board` interface, and had `ElevensBoard` implement it. Would this new scheme allow the Elevens GUI to call `isLegal` and `anotherPlayIsPossible` polymorphically? Would this alternate design work as well as the `abstract Board` class design? Why or why not?
 	```java
